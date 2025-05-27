@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Ходить зайчик",
+      "text": "Ходить зайчик кругом хати, хоче він малого колисати",
+      "img": "./assets/img/hodyt_zaychyk.png",
+      "audio": "./assets/audio/khodyt_zajchyk.mp3"
+    },
+    {
+      "title": "Киця - мура",
+      "text": "Киця мура, де ти була, я гукала, ти не чула",
+      "img": "./assets/img/kotyku_sirenkyi.png",
+      "audio": "./assets/audio/Kytcya_mura.mp3"
+    },
+    {
+      "title": "Ой, ходить сон",
+      "text": "Ой, ходить сон, коло вікон, а дрімота, коло плота",
+      "img": "./assets/img/khodyt_son.png",
+      "audio": "./assets/audio/Oj_hodyt_son.mp3"
+    },
+    {
+      "title": "Ой, ходить сон (інша)",
+      "text": "Ой, ходить сон, коло вікон, а дрімота, коло плота",
+      "img": "./assets/img/kolysochku.png",
+      "audio": "./assets/audio/Oj_hodyt_son_other.mp3"
+    }
+  ]
+  

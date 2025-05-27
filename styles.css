@@ -1,0 +1,249 @@
+body{
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(82, 169, 204, 1) 100%);
+    background-image: url('./assets/img/bg.png');
+    background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+}
+
+section {
+    margin-top: 20px;
+    min-height: 500px;
+    border-bottom: 1px solid white;
+}
+
+.header{
+    
+    height: 60px;
+    padding: 10px 40px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo > img{
+    width: 40px;
+    height: auto;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+  
+}
+.nav-list_item a{
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+}
+.nav-list_item a:hover{
+    color: rgb(177, 250, 219);
+}
+.main{
+    padding: 20px 40px;
+}
+
+.about_book{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.about_description{
+    font-size: 18px;
+}
+
+#wrapper, #video{
+    margin-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.cardList{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.card{
+    box-sizing: content-box;
+    color: rgb(177, 250, 219);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(255, 253, 253, 0.1);
+    transition: transform 0.5s ease;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+.card_title{
+    font-size: 18px;
+    font-weight: 600;
+}
+.card_text{
+    font-size: 12px;
+}
+.card_img{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+blockquote, .hero_blockquote{
+    margin: 0;
+    font-size: 2em;
+    text-align: end;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: Caveat;
+    border-bottom: 1px solid white;
+}
+.hero_title{
+font-size: 10ex;
+}
+
+.about_img{
+    margin-top: 20px;
+    max-width: 200px;
+    height: 100%;
+}
+.about_content, #footer, header{
+    /* color: rgb(177, 250, 219); */
+    border: 1px solid white;
+        border-radius: 5px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        box-shadow: 0 4px 30px rgba(255, 253, 253, 0.1);
+}
+.address a{
+    text-decoration: none;
+        color: white;
+}
+.address{
+    line-height: 2;
+}
+
+.videoList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+        align-items: center;
+    gap: 30px;
+    margin: auto;
+}
+
+.video {
+    width: fit-content;
+    /* background: #f9f9f9; */
+    color: white;
+    padding: 20px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        box-shadow: 0 4px 30px rgba(255, 253, 253, 0.1);
+        transition: transform 0.5s ease;
+}
+.video:hover{
+    transform: scale(1.02);
+}
+.video_titles {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.video_titles li {
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.card_video {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+
+details {
+    margin-top: 30px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(255, 253, 253, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+summary {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 20px 25px;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    list-style: none;
+}
+
+summary::marker {
+    display: none;
+}
+
+summary::after {
+    content: "▸";
+    position: absolute;
+    right: 20px;
+    transition: transform 0.3s ease;
+}
+
+details[open] summary::after {
+    transform: rotate(90deg);
+}
+
+details>div.content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+}
+
+details[open]>div.content {
+    max-height: 100%;
+    padding: 10px 20px 20px;
+}

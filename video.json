@@ -1,0 +1,23 @@
+[
+    {
+      "title": ["Повішу колиску", "Ой ходить сон коло вікон", "Колисала баба діда"],
+      "video": "https://youtu.be/f1rqJUnSJus?list=PLiXsLfMNDwahrPGKwz1hzsbZVeCioOCis",
+      "poster": "./assets/img/poster.png"
+    },
+    {
+      "title": ["Люляй, люляй", "Ой ходить сон коло вікон", "Гона, гонана"],
+      "video": "https://youtu.be/NiSYUEOTnuU?list=PLiXsLfMNDwahrPGKwz1hzsbZVeCioOCis",
+      "poster": "./assets/img/poster.png"
+    },
+    {
+      "title": ["Ходить, ходить зайчик", "Ой ти, кіт-воркіт", "Ой коточок"],
+      "video": "https://youtu.be/vxgIYlyxlfI?list=PLiXsLfMNDwahrPGKwz1hzsbZVeCioOCis",
+      "poster": "./assets/img/poster.png"
+    },
+    {
+      "title": ["Леле, леле, лелесенько", "Киця мура", "Котику сіренький"],
+      "video": "https://youtu.be/NCczaLxc2bk?list=PLiXsLfMNDwahrPGKwz1hzsbZVeCioOCis",
+      "poster": "./assets/img/poster.png"
+    }
+  ]
+  
